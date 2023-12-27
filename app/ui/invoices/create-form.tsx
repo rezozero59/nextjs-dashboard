@@ -31,7 +31,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
               aria-describedby="customer-error"
             >
               <option value="" disabled>
-                Select a customer
+                Selectionner un client
               </option>
               {customers.map((customer) => (
                 <option key={customer.id} value={customer.id}>
@@ -54,7 +54,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         {/* Invoice Amount */}
         <div className="mb-4">
           <label htmlFor="amount" className="mb-2 block text-sm font-medium">
-            Choose an amount
+            Chosir un montant
           </label>
           <div className="relative mt-2 rounded-md">
             <div className="relative">
